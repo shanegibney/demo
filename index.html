@@ -24,11 +24,15 @@
 {
   display: none;
   }
+  input {
+    margin: 10px;
+    display: block;
+  }
    </style>
   </head>
   <body>
     <div id="app" v-cloak>
-      <login-form/>
+      <login-form />
       <input @keyup.enter="greet(greeting + '!!!!!')" v-model="greeting"/>
 
       <hr/>
@@ -54,13 +58,16 @@
               }
             }
           })
-          app.component('login-form'{
-            template:`
-            <div>
-            <input type="email"/>
-            <input type="password"/>
-            /<div>
+
+          app.component('login-form', {
+            template: `
+                <div>
+                  <input type="email"/>
+                  <input type="password" />
+                </div>
+            `
           })
+
           app.mount('#app')
       </script>
   </body>
