@@ -4,6 +4,8 @@ Navigate to the directory where you have index.html
 
 There run a server http-server
 
+![Screenshot from 2022-02-18 13-16-36](https://user-images.githubusercontent.com/17167992/154689792-12cc3aa2-dbed-4ea1-8308-54a347b2329e.png)
+
 In th browser navigate to localhost:8080
 
 
